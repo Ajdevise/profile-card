@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Kumbh Sans';
+}
+
+body {
+  min-height: 100vh;
+  font-size: 18px;
+  background-color: #19a2ae;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top -500px left -300px, bottom -600px right -200px;
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    background-position: top -600px left -700px, bottom -750px right -484px;
+  }
+}
+
+span {
+  color: #6a6f81;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card hr {
+  color: rgba(150, 150, 150, 0.25);
+}
+
+.card__figure {
+  margin: 0;
+}
+
+.card__cover {
+  display: block;
+}
+
+.card__profile {
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-top: -15%;
+  max-width: 27%;
+}
+
+.card__name {
+  display: inline-block;
+  margin-right: .5rem;
+  margin-bottom: 0;
+}
+
+.card__residence {
+  color: #6a6f81;
+}
+
+.card__residence {
+  margin-bottom: 2rem;
+}
+
+.card__stats {
+  display: inline-block;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.card__stats p {
+  font-weight: 700;
+  margin-bottom: .2rem;
+}
+
+.card__stats span {
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+/*# sourceMappingURL=main.css.map */
